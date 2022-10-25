@@ -1,7 +1,6 @@
 #Recebe o valor de A, B e C
-A = float(input())
-B = float(input())
-C = float(input())
+A, B, C = input().split() #Pega um input e separa as entradas (geralmente com " ")
+A, B, C = float(A),float(B),float(C) #Modifica de string para float
 
 pi = 3.14159
 
